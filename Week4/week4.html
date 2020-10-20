@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Materi Javascript</title>
+</head>
+<body>
+    <button onclick="showContent(100)">Click me</button>
+    <p id="content">this is the intiial content</p>
+
+    <script>
+        function showConsole() {
+            for (i = 0; i<10; i++) {
+                console.log("looping = ", + i)
+            }
+        }
+
+        function showContent(num) {
+            //document.getElementById("content").innerHTML = "<b>" + Date(); "</b>"
+            var x = 3;
+            var res = num + x;
+            
+            var p = document.getElementById("content");
+            p.innerHTML = res;
+        }
+    </script>
+</body>
+</html>
