@@ -1,0 +1,28 @@
+MEVN 
+MongoDB => database
+Express => library untuk server
+Vuew    => frontend (angular, react, dll)
+Node    => runtime
+
+
+C++                 Prog Language
+DevCpp              IDE
+gcc/mingw/turboc/   compiler
+
+Java                            Prog Language
+Intellij/Eclipse/Netbeans       IDE
+jdk/oracle-jdk/openjdk          compiler
+play                            web framework
+jfx                             desktop UI
+
+javascript      Prog Language
+node            runtime (interpreter, menerjemahkan javascript untuk bisa dijalankan)
+http/express    library untuk web server
+
+python
+django
+flash
+tkinter
+
+php
+apache
